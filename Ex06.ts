@@ -1,6 +1,15 @@
 //Crie um array de números e uma função que retorna a soma deles.
 let numeros: number[] = [1, 2, 3];
 
+//Forma da correção
+/* 
+function soma(lista: number[])
+{
+    return lista.reduce((total,n) => total+n, 0)
+}
+    
+*/
+
 function soma (num: number[])
 {
     let s: number = 0;

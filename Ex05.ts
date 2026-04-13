@@ -2,7 +2,7 @@
 //"Olá, visitante" se não tiver nome
 //"Olá, [nome]" se tiver
 
-function saudacao(nome: string)
+function saudacao(nome?: string)
 {
     if(nome)
     {
@@ -13,4 +13,4 @@ function saudacao(nome: string)
 }
 
 console.log(saudacao("Thiago"))
-console.log(saudacao(""))
+console.log(saudacao())
